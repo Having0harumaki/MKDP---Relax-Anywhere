@@ -1,0 +1,15 @@
+{
+    "criteria": {
+        "tick": {
+            "trigger": "minecraft:tick"
+        }
+    },
+    "rewards": {
+        "recipes": [
+            "mk_sit:chair",
+            "mk_sit:chair_lv2",
+            "mk_sit:chair_lv3",
+            "mk_sit:chair_lv4"
+        ]
+    }
+}
