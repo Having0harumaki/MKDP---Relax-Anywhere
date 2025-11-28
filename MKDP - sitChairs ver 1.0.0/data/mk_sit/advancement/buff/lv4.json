@@ -1,0 +1,18 @@
+{
+    "criteria": {
+      "getEvent": {
+        "trigger": "minecraft:tick",
+        "conditions": {
+          "player": {
+            "vehicle": {
+              "type": "minecraft:interaction",
+              "nbt": "{Tags:[\"mkChair_buffLv.4\"]}"
+            }
+          }
+        }
+      }
+    },
+    "rewards": {
+      "function": "mk_sit:chair/buff/lv4"
+    }
+  }
