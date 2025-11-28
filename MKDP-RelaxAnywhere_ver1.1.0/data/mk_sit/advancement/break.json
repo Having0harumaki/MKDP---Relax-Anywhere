@@ -1,0 +1,30 @@
+{
+    "criteria": {
+        "event": {
+            "trigger": "minecraft:player_hurt_entity",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "type_specific": {
+                                "type": "minecraft:player",
+                                "input": {
+                                    "sneak": true
+                                }
+                            }
+                        }
+                    }
+                ],
+                "entity": {
+                    "type": "minecraft:interaction",
+                    "nbt": "{Tags:[\"mkChair_Interaction\"]}"
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "mk_sit:chair/break/"
+    }
+}
